@@ -1,0 +1,11 @@
+13:23:29 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+
+13:23:30 Build Finished. 0 errors, 1 warnings. (took 790ms)
+

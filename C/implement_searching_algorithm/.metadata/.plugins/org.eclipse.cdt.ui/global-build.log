@@ -1,0 +1,94 @@
+12:57:35 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+   40 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+12:59:07 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+12:59:23 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+12:59:57 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+13:16:02 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+13:16:18 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+13:17:19 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c:27:8: error: conflicting types for 'binarySearch'
+   27 | int8_t binarySearch(uint32_t *arr, uint32_t number, uint32_t left, uint32_t right)
+      |        ^~~~~~~~~~~~
+..\src\searching_algorithm.c:8:9: note: previous declaration of 'binarySearch' was here
+    8 | uint8_t binarySearch(uint32_t *arr, uint32_t number, uint32_t left, uint32_t right);
+      |         ^~~~~~~~~~~~
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+13:17:34 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+13:17:48 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+Info: Nothing to build for searching_algorithm
+13:23:19 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 
+13:23:29 **** Incremental Build of configuration Debug for project searching_algorithm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searching_algorithm.o" "..\\src\\searching_algorithm.c" 
+..\src\searching_algorithm.c: In function 'binarySearch':
+..\src\searching_algorithm.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+gcc -o searching_algorithm.exe "src\\searching_algorithm.o" 

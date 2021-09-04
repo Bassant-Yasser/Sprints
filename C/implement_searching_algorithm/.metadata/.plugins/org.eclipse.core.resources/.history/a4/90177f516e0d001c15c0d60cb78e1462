@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef unsigned char   uint8_t;
+typedef unsigned int   uint32_t;
+
+uint8_t binarySearch(uint32_t *arr, uint8_t size, uint32_t number, uint32_t left, uint32_t right);
+
+int cmpfunc (const void * a, const void * b) {
+   return ( *(int*)a - *(int*)b );
+}
+
+int main(void) {
+	int arr[5] = {2, 5, 15, 1, 20};
+	qsort(arr, 5, sizeof(int), cmpfunc);
+	int number = binarySearch(arr, 5, 15, 0, 4);
+	printf("%d", number);
+}
+
+uint8_t binarySearch(uint32_t *arr, uint8_t size, uint32_t number, uint32_t left, uint32_t right)
+{
+	if(left > right)
+	{
+		return -1;
+	}
+	if (left == right)
+	{
+		if (number == arr[left]) return left;
+		else return -1;
+	}
+
+	int mid = (left+right)/2;
+
+	if (number == arr[mid]) return mid;
+
+	if (number < arr[mid])
+		return binarySearch (number, arr, left, mid-1);
+	if (number > arr[mid])
+		return binarySearch(number, arr, mid+1, right);
+}
+
