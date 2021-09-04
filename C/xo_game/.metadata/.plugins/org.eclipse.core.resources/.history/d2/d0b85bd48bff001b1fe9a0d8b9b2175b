@@ -1,0 +1,143 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char xo[3][3];
+
+}
+
+
+char check_win(char xo[][])
+{
+	int first_win = 0, second_win = 0;
+
+	for(int i = 0; i < 9; i++)
+	{
+		for(int j = 0; j < 9; j++)
+		{
+
+		}
+	}
+
+	if((xo[0][0] == xo[0][1]) && (xo[0][0] == xo[0][2]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+
+	if((xo[1][0] == xo[1][1]) && (xo[1][0] == xo[1][2]))
+	{
+		if(xo[1][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[2][0] == xo[2][1]) && (xo[2][0] == xo[2][2]))
+	{
+		if(xo[2][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+
+	if((xo[0][0] == xo[1][0]) && (xo[0][0] == xo[2][0]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][1] == xo[1][1]) && (xo[0][1] == xo[2][1]))
+	{
+		if(xo[0][1] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][2] == xo[1][2]) && (xo[0][2] == xo[2][2]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][0] == xo[1][1]) && (xo[0][0] == xo[2][2]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][2] == xo[1][1]) && (xo[0][2] == xo[2][0]))
+	{
+		if(xo[0][2] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if(first_win == 1)
+		return 'x';
+	else if(second_win == 1)
+		return 'o';
+	else
+		return 'n';
+}

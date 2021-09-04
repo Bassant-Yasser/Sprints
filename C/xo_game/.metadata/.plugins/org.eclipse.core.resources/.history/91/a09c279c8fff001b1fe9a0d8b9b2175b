@@ -1,0 +1,217 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char check_win(char xo[3][3]);
+void display_xo_game(char xo[3][3]);
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	char xo[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+	int i = 0;
+	while(1)
+	{
+		int row, column;
+		if(i % 2 == 0)
+		{
+			printf("First Player turn: \nPlease choose row and column: ");
+			scanf("%d %d", &row, &column);
+			xo[row][column] = 'x';
+		}
+		else
+		{
+			printf("Second Player turn: \nPlease choose row and column: ");
+			scanf("%d %d", &row, &column);
+			xo[row][column] = 'o';
+		}
+
+		display_xo_game(xo);
+
+
+		char v = check_win(xo);
+		if(v == 'x' || v == 'o')
+		{
+			char answer;
+			if(v == 'x')
+			{
+				printf("GameOver First Player win..");
+
+			}
+			else if(v == 'o')
+			{
+				printf("GameOver Second Player win..");
+			}
+			printf("Do you want to play again? Yes:y  , No: n");
+			scanf("%c", &answer);
+
+			if(answer == 'n')
+				break;
+			else if(answer == 'y')
+			{
+				for(int i = 0; i < 3; i++)
+				{
+					for(int j = 0; j < 3; j++)
+					{
+						xo[i][j] = ' ';
+					}
+				}
+			}
+		}
+
+
+
+		i++;
+
+	}
+
+}
+
+void display_xo_game(char xo[3][3])
+{
+	for(int i = 0; i < 3; i++)
+	{
+		for(int j = 0; j < 3; j++)
+		{
+			printf("%c", xo[i][j]);
+			if(j != 2)
+				printf(" | ");
+		}
+		printf("\n----------\n");
+	}
+}
+
+char check_win(char xo[3][3])
+{
+	int first_win = 0, second_win = 0;
+
+	for(int i = 0; i < 9; i++)
+	{
+		for(int j = 0; j < 9; j++)
+		{
+
+		}
+	}
+
+	if((xo[0][0] == xo[0][1]) && (xo[0][0] == xo[0][2]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[0][0] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+
+	if((xo[1][0] == xo[1][1]) && (xo[1][0] == xo[1][2]))
+	{
+		if(xo[1][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[1][0] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[2][0] == xo[2][1]) && (xo[2][0] == xo[2][2]))
+	{
+		if(xo[2][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[2][0] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+
+	if((xo[0][0] == xo[1][0]) && (xo[0][0] == xo[2][0]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[0][0] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][1] == xo[1][1]) && (xo[0][1] == xo[2][1]))
+	{
+		if(xo[0][1] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[0][1] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][2] == xo[1][2]) && (xo[0][2] == xo[2][2]))
+	{
+		if(xo[0][2] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[0][2] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][0] == xo[1][1]) && (xo[0][0] == xo[2][2]))
+	{
+		if(xo[0][0] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[0][0] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if((xo[0][2] == xo[1][1]) && (xo[0][2] == xo[2][0]))
+	{
+		if(xo[0][2] == 'x')
+		{
+			first_win = 1;
+			second_win = 0;
+		}
+		else if (xo[0][2] == 'y')
+		{
+			first_win = 0;
+			second_win = 1;
+		}
+	}
+
+	if(first_win == 1)
+		return 'x';
+	else if(second_win == 1)
+		return 'o';
+	else
+		return 'n';
+}

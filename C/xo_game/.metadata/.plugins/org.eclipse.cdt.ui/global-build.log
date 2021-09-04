@@ -1,0 +1,90 @@
+20:52:51 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+Info: Nothing to build for xo_game
+20:53:31 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+20:56:43 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+20:58:16 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+20:58:47 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+20:59:11 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+20:59:55 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:03:14 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:04:35 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:06:04 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:06:23 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:06:48 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:10:13 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:21:14 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:22:25 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:23:18 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:23:49 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:25:47 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file xo_game.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:26:23 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:27:16 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:53:30 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+21:55:43 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 

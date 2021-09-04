@@ -1,0 +1,7 @@
+21:55:43 **** Incremental Build of configuration Debug for project xo_game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\xo_game.o" "..\\src\\xo_game.c" 
+gcc -o xo_game.exe "src\\xo_game.o" 
+
+21:55:44 Build Finished. 0 errors, 0 warnings. (took 818ms)
+
