@@ -1,0 +1,34 @@
+17:21:22 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2084 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+17:21:23 Build Finished. 0 errors, 0 warnings. (took 1s.194ms)
+

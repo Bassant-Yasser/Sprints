@@ -1,0 +1,195 @@
+17:07:08 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"timer.d" -MT"timer.o" -c -o "timer.o" "../timer.c"
+../timer.c: In function 'Timer_setCallBack':
+../timer.c:277: warning: function return types not compatible due to 'volatile'
+../timer.c:281: warning: function return types not compatible due to 'volatile'
+../timer.c:285: warning: function return types not compatible due to 'volatile'
+Finished building: ../timer.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2058 bytes (12.6% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:15:53 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2084 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:17:59 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2084 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:20:20 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2084 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:21:08 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2080 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:21:22 **** Incremental Build of configuration Debug for project Task8 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Task8.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Task8.map -mmcu=atmega16 -o "Task8.elf"  ./main.o ./timer.o   
+Finished building target: Task8.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Task8.elf  >"Task8.lss"
+Finished building: Task8.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Task8.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2084 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
