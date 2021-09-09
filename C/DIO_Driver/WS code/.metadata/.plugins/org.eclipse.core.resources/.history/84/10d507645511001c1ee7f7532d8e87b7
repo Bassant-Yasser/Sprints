@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 9, 2021
+ *      Author: Bassant Yasser
+ */
+#include "ECUAL/Button/Button.h"
+#include "MCAL/DIO/DIO.h"
+
+int main()
+{
+	DIO_ConfigType config = {PORT_A, P0, OUTPUT};
+	DIO_Init(&config);
+
+	config.port = PORT_C;
+	config.dir = INPUT;
+	DIO_Init(&config);
+
+	DIO_Clear(PORT_A, P0);
+
+	while(1)
+	{
+		if(Button_Read(PORT_C, P0) == 1)
+		{
+			DIO_Toggle(PORT_A, P0);
+		}
+
+	}
+}

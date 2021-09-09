@@ -1,0 +1,737 @@
+11:28:40 **** Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+../MCAL/DIO/DIO.c: In function 'DIO_Read':
+../MCAL/DIO/DIO.c:48: warning: control reaches end of non-void function
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     746 bytes (4.6% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:32:25 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+../MCAL/DIO/DIO.c: In function 'DIO_Read':
+../MCAL/DIO/DIO.c:62: warning: control reaches end of non-void function
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     972 bytes (5.9% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:32:44 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     980 bytes (6.0% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:37:10 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+../MCAL/DIO/DIO.c: In function 'DIO_Read':
+../MCAL/DIO/DIO.c:104: warning: control reaches end of non-void function
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/inttypes.h:37,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:38,
+                 from ../main.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/stdint.h:124: error: conflicting types for 'uint16_t'
+../MCAL/DIO/../../std_types.h:34: error: previous declaration of 'uint16_t' was here
+In file included from ../main.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:38:06 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+../MCAL/DIO/DIO.c: In function 'DIO_Read':
+../MCAL/DIO/DIO.c:104: warning: control reaches end of non-void function
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4758 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:39:16 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1668 bytes (10.2% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:46:11 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/Button.c:8:
+../ECUAL/Button/Button.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Button_Read'
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:46:45 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/Button.c:8:
+../ECUAL/Button/Button.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Button_read'
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:47:22 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+Finished building: ../ECUAL/Button/Button.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1668 bytes (10.2% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:48:57 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/Button.c:9:
+../ECUAL/Button/../../MCAL/DIO/DIO.h:16: error: redeclaration of enumerator 'PORT_A'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_A' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:16: error: redeclaration of enumerator 'PORT_B'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_B' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:16: error: redeclaration of enumerator 'PORT_C'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_C' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:17: error: redeclaration of enumerator 'PORT_D'
+../ECUAL/Button/Button.h:16: error: previous definition of 'PORT_D' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:17: error: conflicting types for 'Port'
+../ECUAL/Button/Button.h:16: error: previous declaration of 'Port' was here
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:49:10 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/Button.c:8:
+../ECUAL/Button/Button.h:18: error: expected ')' before 'port_number'
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:49:46 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/Button.c:9:
+../ECUAL/Button/../../MCAL/DIO/DIO.h:16: error: redeclaration of enumerator 'PORT_A'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_A' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:16: error: redeclaration of enumerator 'PORT_B'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_B' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:16: error: redeclaration of enumerator 'PORT_C'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_C' was here
+../ECUAL/Button/../../MCAL/DIO/DIO.h:17: error: redeclaration of enumerator 'PORT_D'
+../ECUAL/Button/Button.h:16: error: previous definition of 'PORT_D' was here
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:50:46 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/../../MCAL/DIO/DIO.h:12,
+                 from ../ECUAL/Button/Button.c:9:
+../ECUAL/Button/../../MCAL/DIO/../../registers.h:38: error: redeclaration of enumerator 'PORT_A'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_A' was here
+../ECUAL/Button/../../MCAL/DIO/../../registers.h:38: error: redeclaration of enumerator 'PORT_B'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_B' was here
+../ECUAL/Button/../../MCAL/DIO/../../registers.h:38: error: redeclaration of enumerator 'PORT_C'
+../ECUAL/Button/Button.h:15: error: previous definition of 'PORT_C' was here
+../ECUAL/Button/../../MCAL/DIO/../../registers.h:39: error: redeclaration of enumerator 'PORT_D'
+../ECUAL/Button/Button.h:16: error: previous definition of 'PORT_D' was here
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:04 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+In file included from ../ECUAL/Button/Button.c:8:
+../ECUAL/Button/Button.h:18: error: expected ')' before 'port_number'
+make: *** [ECUAL/Button/Button.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:43 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../MCAL/DIO/DIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MCAL/DIO/DIO.d" -MT"MCAL/DIO/DIO.o" -c -o "MCAL/DIO/DIO.o" "../MCAL/DIO/DIO.c"
+Finished building: ../MCAL/DIO/DIO.c
+ 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+Finished building: ../ECUAL/Button/Button.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1700 bytes (10.4% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:52:14 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1700 bytes (10.4% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:55:37 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:17: error: '_' undeclared (first use in this function)
+../main.c:17: error: (Each undeclared identifier is reported only once
+../main.c:17: error: for each function it appears in.)
+../main.c:18: error: expected ';' before 'DIO_Clear'
+../main.c:21: warning: implicit declaration of function 'Button_Read'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:19 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:23: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1758 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:56:50 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/Button/Button.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/Button/Button.d" -MT"ECUAL/Button/Button.o" -c -o "ECUAL/Button/Button.o" "../ECUAL/Button/Button.c"
+Finished building: ../ECUAL/Button/Button.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:23: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1758 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:57:53 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:23: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1758 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:58:12 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:23: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1758 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:58:38 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:23: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1758 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:02:05 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/LED/Led.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/LED/Led.d" -MT"ECUAL/LED/Led.o" -c -o "ECUAL/LED/Led.o" "../ECUAL/LED/Led.c"
+Finished building: ../ECUAL/LED/Led.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/LED/Led.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1822 bytes (11.1% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:03:12 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../ECUAL/LED/Led.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ECUAL/LED/Led.d" -MT"ECUAL/LED/Led.o" -c -o "ECUAL/LED/Led.o" "../ECUAL/LED/Led.c"
+Finished building: ../ECUAL/LED/Led.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:23: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/LED/Led.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1828 bytes (11.2% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:05:35 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:30: warning: implicit declaration of function 'Button_Read'
+../main.c:32: warning: implicit declaration of function '_delay_ms'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/LED/Led.o  ./ECUAL/Button/Button.o  ./main.o   
+./main.o: In function `main':
+../main.c:32: undefined reference to `_delay_ms'
+make: *** [DIO_Driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:05:46 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:30: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/LED/Led.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1862 bytes (11.4% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:07:13 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:25: warning: implicit declaration of function 'Button_Read'
+Finished building: ../main.c
+ 
+Building target: DIO_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,DIO_Driver.map -mmcu=atmega16 -o "DIO_Driver.elf"  ./MCAL/DIO/DIO.o  ./ECUAL/LED/Led.o  ./ECUAL/Button/Button.o  ./main.o   
+Finished building target: DIO_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S DIO_Driver.elf  >"DIO_Driver.lss"
+Finished building: DIO_Driver.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1844 bytes (11.3% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:10:23 **** Incremental Build of configuration Debug for project DIO_Driver ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 DIO_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1844 bytes (11.3% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

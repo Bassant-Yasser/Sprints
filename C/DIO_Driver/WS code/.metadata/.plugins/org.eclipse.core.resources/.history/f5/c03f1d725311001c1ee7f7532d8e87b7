@@ -1,0 +1,20 @@
+/*
+ * Button.h
+ *
+ *  Created on: Sep 9, 2021
+ *      Author: Bassant Yasser
+ */
+
+#ifndef ECUAL_BUTTON_BUTTON_H_
+#define ECUAL_BUTTON_BUTTON_H_
+
+#include "../../std_types.h"
+
+typedef enum
+{
+	PORT_A, PORT_B, PORT_C, PORT_D
+}Port_t;
+
+uint8_t Button_read (Port_t port_number, uint8_t pin_number);
+
+#endif /* ECUAL_BUTTON_BUTTON_H_ */

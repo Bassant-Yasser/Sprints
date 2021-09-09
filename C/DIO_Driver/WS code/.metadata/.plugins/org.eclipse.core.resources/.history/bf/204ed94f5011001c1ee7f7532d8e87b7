@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 9, 2021
+ *      Author: Bassant Yasser
+ */
+#include "MCAL/DIO/DIO.h"
+int main()
+{
+	DIO_ConfigType config = {PORT_A, P0, OUTPUT};
+	while(1)
+	{
+
+	}
+}

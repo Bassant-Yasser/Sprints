@@ -1,0 +1,39 @@
+/*
+ * DIO.c
+ *
+ *  Created on: Sep 9, 2021
+ *      Author: Ahmed Yasser
+ */
+
+
+#include "DIO.h"
+
+void DIO_Init (const DIO_ConfigType *Config_Ptr)
+{
+	switch(Config_Ptr->port)
+	{
+	case PORT_A:
+		PORTA_DIR = (PORTA_DIR & (1<<Config_Ptr->pin_number)) | (dir<<Config_Ptr->pin_number);
+		break;
+	}
+}
+
+void DIO_Set ( Port port_number, uint8_t pin_number)
+{
+
+}
+
+void DIO_Clear ( Port port_number, uint8_t pin_number)
+{
+
+}
+
+void DIO_Toggle ( Port port_number, uint8_t pin_number)
+{
+
+}
+
+uint8_t DIO_Read ( Port port_number, uint8_t pin_number)
+{
+
+}
